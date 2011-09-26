@@ -1,5 +1,5 @@
 = Contents =
-  * Introduction
+  * [http://code.google.com/p/74clock/wiki/Introduction Introduction]
   * [http://code.google.com/p/74clock/wiki/Design Design]
-  * Layout
-  * Assembly
+  * [http://code.google.com/p/74clock/wiki/Layout Layout]
+  * [http://code.google.com/p/74clock/wiki/Assembly Assembly]
