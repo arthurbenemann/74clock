@@ -1,6 +1,5 @@
 = Contents =
   * Introduction
-  * Design
+  * [http://code.google.com/p/74clock/wiki/Design Design]
   * Layout
   * Assembly
-  * WikiSyntax
