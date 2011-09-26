@@ -1,6 +1,6 @@
 = Contents =
 
-*Introduction
-*Design
-*Layout
-*Assembly
+  *Introduction
+  *Design
+  *Layout
+  *Assembly
