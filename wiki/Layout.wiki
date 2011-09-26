@@ -1,14 +1,12 @@
-#summary One-sentence summary of this page.
+http://74clock.googlecode.com/svn/wiki/images/layout/PCB%20Organizando%201.png
+http://74clock.googlecode.com/svn/wiki/images/layout/PCB%20Organizando%202.png
+http://74clock.googlecode.com/svn/wiki/images/layout/PCB%20Organizando%203.png
 
-= Introduction =
+http://74clock.googlecode.com/svn/wiki/images/layout/PCB%20parcial%201.png
+http://74clock.googlecode.com/svn/wiki/images/layout/PCB%20parcial%202.png
+http://74clock.googlecode.com/svn/wiki/images/layout/PCB%20parcial%203.png
+http://74clock.googlecode.com/svn/wiki/images/layout/PCB%20parcial%204.png
+http://74clock.googlecode.com/svn/wiki/images/layout/PCB%20parcial%205.png
+http://74clock.googlecode.com/svn/wiki/images/layout/PCB%20parcial%206.png
 
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-t
+http://74clock.googlecode.com/svn/wiki/images/layout/dISPLY.png
