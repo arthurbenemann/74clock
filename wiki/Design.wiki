@@ -1,4 +1,8 @@
 = Design =
 
 Add your content here.
+http://74clock.googlecode.com/svn/wiki/images/design/analize%20Display%20grande.png
 
+http://74clock.googlecode.com/svn/wiki/images/design/analize%20LM317.png
+
+http://74clock.googlecode.com/svn/wiki/images/design/analize%20display%20pequeno.png
