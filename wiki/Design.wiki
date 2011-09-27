@@ -1,6 +1,9 @@
 = Design =
 
-Add your content here.
+http://74clock.googlecode.com/svn/wiki/images/design/DSC05007.JPG
+http://74clock.googlecode.com/svn/wiki/images/design/DSC05010.JPG
+
+
 
 [http://miscel.dk/MiscEl/miscel.html MiscEl]
 
