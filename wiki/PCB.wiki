@@ -1,6 +1,6 @@
 = PCB =
 
-http://74clock.googlecode.com/svn/wiki/images/pcb/DSC01701.JPG
-http://74clock.googlecode.com/svn/wiki/images/pcb/DSC05016.JPG
-http://74clock.googlecode.com/svn/wiki/images/pcb/DSC05017.JPG
-http://74clock.googlecode.com/svn/wiki/images/pcb/DSC05020.JPG
+[http://74clock.googlecode.com/svn/wiki/images/pcb/DSC01701.JPG http://74clock.googlecode.com/svn/wiki/images/pcb/small/DSC01701.jpg]
+[http://74clock.googlecode.com/svn/wiki/images/pcb/DSC05016.JPG http://74clock.googlecode.com/svn/wiki/images/pcb/small/DSC05016.jpg]
+[http://74clock.googlecode.com/svn/wiki/images/pcb/DSC05017.JPG http://74clock.googlecode.com/svn/wiki/images/pcb/small/DSC05017.jpg]
+[http://74clock.googlecode.com/svn/wiki/images/pcb/DSC05020.JPG http://74clock.googlecode.com/svn/wiki/images/pcb/small/DSC05020.jpg]
