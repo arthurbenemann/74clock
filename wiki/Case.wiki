@@ -1,8 +1,8 @@
 = Case =
 
-http://74clock.googlecode.com/svn/wiki/images/Case/DSC01720.JPG
-http://74clock.googlecode.com/svn/wiki/images/Case/DSC01721.JPG
-http://74clock.googlecode.com/svn/wiki/images/Case/DSC01722.JPG
-http://74clock.googlecode.com/svn/wiki/images/Case/DSC01726.JPG
-http://74clock.googlecode.com/svn/wiki/images/Case/DSC01727.JPG
-http://74clock.googlecode.com/svn/wiki/images/Case/DSC01730.JPG
+[http://74clock.googlecode.com/svn/wiki/images/Case/DSC01720.JPG http://74clock.googlecode.com/svn/wiki/images/Case/small/DSC01720.jpg]
+[http://74clock.googlecode.com/svn/wiki/images/Case/DSC01721.JPG http://74clock.googlecode.com/svn/wiki/images/Case/small/DSC01721.jpg]
+[http://74clock.googlecode.com/svn/wiki/images/Case/DSC01722.JPG http://74clock.googlecode.com/svn/wiki/images/Case/small/DSC01722.jpg]
+[http://74clock.googlecode.com/svn/wiki/images/Case/DSC01726.JPG http://74clock.googlecode.com/svn/wiki/images/Case/small/DSC01726.jpg]
+[http://74clock.googlecode.com/svn/wiki/images/Case/DSC01727.JPG http://74clock.googlecode.com/svn/wiki/images/Case/small/DSC01727.jpg]
+[http://74clock.googlecode.com/svn/wiki/images/Case/DSC01730.JPG http://74clock.googlecode.com/svn/wiki/images/Case/small/DSC01730.jpg]
