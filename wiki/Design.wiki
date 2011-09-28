@@ -1,7 +1,7 @@
 = Design =
 
 http://74clock.googlecode.com/svn/wiki/images/design/DSC05007.JPG
-[http://74clock.googlecode.com/svn/wiki/images/design/DSC05010.JPG http://74clock.googlecode.com/svn/wiki/images/design/small/DSC05010.JPG]
+[http://74clock.googlecode.com/svn/wiki/images/design/DSC05010.JPG http://74clock.googlecode.com/svn/wiki/images/design/small/DSC05010.jpg]
 
 
 
