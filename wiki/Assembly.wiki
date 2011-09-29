@@ -1,10 +1,33 @@
-[http://gadgetfactory.net/logicsniffer/ Open Logic Sniffer]
+= Assembly =
+
+1. Tools:
+  * Soldering Iron
+  * Solder
+  * Desoldering pump (everyone makes mistakes)
+  * Wire cutter ( trimming the leads)
+  * Light
+  * PCB Layout of the IC ( Eagle with the "value" layer on)
+  * PCB Holder (not essential)
 
 [http://74clock.googlecode.com/svn/wiki/images/Build/DSC01705.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01705.jpg]
+
+
+2. Solder the ICs and Vias - Start by soldering the vias, they are easy to be forgotten. A thin wire will do the job. Since this is the prototype I build it one part at a time, so it's easy to make it work. The ICs soldered take care of keeping the time. *Both sides of the board must be soldered.*
+
 [http://74clock.googlecode.com/svn/wiki/images/Build/DSC01706.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01706.jpg]
+
+3. Check the joints - And make repairs where needed.
+
 [http://74clock.googlecode.com/svn/wiki/images/Build/DSC01708.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01708.jpg]
+
+4. Check the power lines - Ideally you should check all the traces, but that is so tedious. I normally just check the GND and power lines, so all the ICs are powered up.
+
 [http://74clock.googlecode.com/svn/wiki/images/Build/DSC01709.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01709.jpg]
-[http://74clock.googlecode.com/svn/wiki/images/Build/DSC01712.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01712.jpg]
+
+[http://gadgetfactory.net/logicsniffer/ Open Logic Sniffer]
+[http://74clock.googlecode.com/svn/wiki/images/Build/DSC01712.JPG 
+http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01712.jpg]
+
 [http://74clock.googlecode.com/svn/wiki/images/Build/DSC01717.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01717.jpg]
 
 http://74clock.googlecode.com/svn/wiki/images/Build/ols%20full%20range.png
