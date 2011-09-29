@@ -1,11 +1,11 @@
 [http://gadgetfactory.net/logicsniffer/ Open Logic Sniffer]
 
-http://74clock.googlecode.com/svn/wiki/images/Build/DSC01705.JPG
-http://74clock.googlecode.com/svn/wiki/images/Build/DSC01706.JPG
-http://74clock.googlecode.com/svn/wiki/images/Build/DSC01708.JPG
-http://74clock.googlecode.com/svn/wiki/images/Build/DSC01709.JPG
-http://74clock.googlecode.com/svn/wiki/images/Build/DSC01712.JPG
-http://74clock.googlecode.com/svn/wiki/images/Build/DSC01717.JPG
+[http://74clock.googlecode.com/svn/wiki/images/Build/DSC01705.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01705.jpg]
+[http://74clock.googlecode.com/svn/wiki/images/Build/DSC01706.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01706.jpg]
+[http://74clock.googlecode.com/svn/wiki/images/Build/DSC01708.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01708.jpg]
+[http://74clock.googlecode.com/svn/wiki/images/Build/DSC01709.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01709.jpg]
+[http://74clock.googlecode.com/svn/wiki/images/Build/DSC01712.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01712.jpg]
+[http://74clock.googlecode.com/svn/wiki/images/Build/DSC01717.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01717.jpg]
 
 http://74clock.googlecode.com/svn/wiki/images/Build/ols%20full%20range.png
 http://74clock.googlecode.com/svn/wiki/images/Build/ols%20half%20range.png
