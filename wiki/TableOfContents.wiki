@@ -3,4 +3,5 @@
   * [http://code.google.com/p/74clock/wiki/Design Design]
   * [http://code.google.com/p/74clock/wiki/Layout Layout]
   * [http://code.google.com/p/74clock/wiki/PCB PCB]
+  * [http://code.google.com/p/74clock/w/edit/Assembly Assembly]
   * [http://code.google.com/p/74clock/wiki/Case Case]
