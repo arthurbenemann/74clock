@@ -9,7 +9,7 @@
   * PCB Layout of the IC ( Eagle with the "value" layer on)
   * PCB Holder (not essential)
   * [http://dangerousprototypes.com/docs/Bus_Pirate Bus Pirate]   
-  * [http://gadgetfactory.net/logicsniffer/ Open Logic Sniffer]    
+  * [http://gadgetfactory.net/logicsniffer/ Open Logic Sniffer] ([http://dangerousprototypes.com/open-logic-sniffer Dangerous Prototypes link])    
 
 The buspirate and the OLS are great tools and can help alot when debugging, but the project can be made without them.
 
