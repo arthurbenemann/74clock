@@ -1,5 +1,5 @@
 = Case =
-Making a case for the clock isn't too har , but makes it look a lot better. If you have access to a laser cutter you don't even have a excuse for not building it.
+Making a case for the clock isn't hard , but makes it look a lot better. If you have access to a laser cutter you don't even have a excuse for not building it.
 
 1. Parts list:
  * Acrylic sheet 200mmx100mmx4mm x2
