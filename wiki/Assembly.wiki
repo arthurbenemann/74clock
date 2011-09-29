@@ -24,11 +24,18 @@
 
 [http://74clock.googlecode.com/svn/wiki/images/Build/DSC01709.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01709.jpg]
 
-[http://gadgetfactory.net/logicsniffer/ Open Logic Sniffer]
-[http://74clock.googlecode.com/svn/wiki/images/Build/DSC01712.JPG 
-http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01712.jpg]
+5. Power up - Now its a good time to see if the circuit is working (You can see in the picture that more one IC needs to be soldered to the test). I tested the circuit by powering, and clocking it with the [http://dangerousprototypes.com/docs/Bus_Pirate Bus Pirate]. The output of the conters where logged with the [http://gadgetfactory.net/logicsniffer/ Open Logic Sniffer]. After re-soldering some joints it worked. (Most problems occurred because a solder joint on the top layer under the chip was open)
 
-[http://74clock.googlecode.com/svn/wiki/images/Build/DSC01717.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01717.jpg]
+[http://74clock.googlecode.com/svn/wiki/images/Build/DSC01712.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01712.jpg]
+
+5.a. The Bus pirate was used to generate a 10Khz clock, the logic analyzer was connected as show in the schematic. These are the screens of the clock working. ( 6ms represents 60s on the real clock)
+
+http://74clock.googlecode.com/svn/wiki/images/Build/ols%20half%20range.png
+
+5.b The same as above but on a larger time range. ( The marker should read 144.0ms, but the buspirate isn't a perfect clock)
 
 http://74clock.googlecode.com/svn/wiki/images/Build/ols%20full%20range.png
-http://74clock.googlecode.com/svn/wiki/images/Build/ols%20half%20range.png
+
+6. Solder the rest of the ICs and decoupling caps.
+
+[http://74clock.googlecode.com/svn/wiki/images/Build/DSC01717.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01717.jpg]
