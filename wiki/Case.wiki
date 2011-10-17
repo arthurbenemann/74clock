@@ -30,3 +30,7 @@ Making a case for the clock isn't hard , but makes it look a lot better. If you 
 6. Finish the surface of the acrylic (if it was not laser cut) with the sandpapers. 
 
 [http://74clock.googlecode.com/svn/wiki/images/Case/DSC01730.JPG http://74clock.googlecode.com/svn/wiki/images/Case/small/DSC01730.jpg]
+
+7. Just to give an idea of how the screw make it stay together.
+
+[http://74clock.googlecode.com/svn/wiki/images/case/screw.JPG http://74clock.googlecode.com/svn/wiki/images/Case/small/screw.jpg]
