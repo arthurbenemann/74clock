@@ -1,13 +1,22 @@
-= Introduction =
+= 74Clock =
 
-Add your content here.
+==This page is under construction. Please come back later.==
 
 
-= Details =
+A clock is a useful thing, so let's build one.
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+[http://74clock.googlecode.com/svn/wiki/images/74Clock.JPG http://74clock.googlecode.com/svn/wiki/images/74Clock.jpg]
 
-Design
+The motivation from this project come from the [http://dangerousprototypes.com/open-7400-logic-competition/ 74 contest], hosted by [http://dangerousprototypes.com/open-7400-logic-competition/ Dangerus Prototypes]. I had three projects in mind, a one instruction set computer, a logic analyzer and a clock. The first would be put in a corner after the project, the second would be useful but a micro would have a lot more features. The idea of making a clock for the [http://www.daele.eng.br/ DAELE], that is a our university group of students, would be nice.
+
+The clock would stay in a big room, so it had to be big. Having to adjust the clock on every power failure would be bad. With these specifications in mind the clock was been projected. The idea of making this a mini tutorial on project making process has come also. I tried to take as many pictures as I could, and give a good explanation of the design and build decisions.
+
+Thanks guys from the DAELE, for helping with the cost of the parts. Those big displays are expensive.
+
+All pictures are available in high resolution just click on the images.
+
+[http://74clock.googlecode.com/svn/wiki/images/74Clock2.JPG http://74clock.googlecode.com/svn/wiki/images/74Clock2.jpg]
+
+[http://74clock.googlecode.com/svn/wiki/images/74Clock3.JPG http://74clock.googlecode.com/svn/wiki/images/74Clock3.jpg]
+
+[http://74clock.googlecode.com/svn/wiki/images/Build/circuit.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/circuit.jpg]
