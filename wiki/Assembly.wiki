@@ -43,3 +43,7 @@ http://74clock.googlecode.com/svn/wiki/images/Build/ols%20full%20range.png
 6. Solder the rest of the ICs and decoupling caps.
 
 [http://74clock.googlecode.com/svn/wiki/images/Build/DSC01717.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01717.jpg]
+
+7. The fix up on the clock circuit as explained on the design page. A capacitor get's replaced by a variable-cap.
+
+[http://74clock.googlecode.com/svn/wiki/images/Build/clock.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/clock.jpg]
