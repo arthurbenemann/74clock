@@ -2,7 +2,6 @@
 
 ==This page is under construction. Please come back later.==
 
-
 A clock is a useful thing, so let's build one.
 
 [http://74clock.googlecode.com/svn/wiki/images/74Clock.JPG http://74clock.googlecode.com/svn/wiki/images/74Clock.jpg]
@@ -13,10 +12,16 @@ The clock would stay in a big room, so it had to be big. Having to adjust the cl
 
 Thanks guys from the DAELE, for helping with the cost of the parts. Those big displays are expensive.
 
-All pictures are available in high resolution just click on the images.
+
+===Arthur Benemann 2011 Brazil===
+
 
 [http://74clock.googlecode.com/svn/wiki/images/74Clock2.JPG http://74clock.googlecode.com/svn/wiki/images/74Clock2.jpg]
 
 [http://74clock.googlecode.com/svn/wiki/images/74Clock3.JPG http://74clock.googlecode.com/svn/wiki/images/74Clock3.jpg]
 
 [http://74clock.googlecode.com/svn/wiki/images/Build/circuit.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/circuit.jpg]
+
+===All pictures are available in high resolution just click on the images.===
+
+Just a small note for those who will complain about my English: The project it's open source so instead of complying  fix it, aren't you an engineer? And if you still want to complain write it on Portuguese.
