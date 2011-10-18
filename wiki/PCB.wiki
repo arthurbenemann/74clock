@@ -18,3 +18,4 @@ The method that i like to use is [http://www.google.com/search?q=Toner+transfer+
 [http://74clock.googlecode.com/svn/wiki/images/pcb/DSC01701.JPG http://74clock.googlecode.com/svn/wiki/images/pcb/small/DSC01701.jpg]
 
   * Check the PCB - Yes you will have to check it again. It saves a lot of trouble to do it now.
+  * A coating layer must be applied to the board to protect it. I use a PCB varnish bought on a local store.
