@@ -47,3 +47,9 @@ http://74clock.googlecode.com/svn/wiki/images/Build/ols%20full%20range.png
 7. The fix up on the clock circuit as explained on the design page. A capacitor get's replaced by a variable-cap.
 
 [http://74clock.googlecode.com/svn/wiki/images/Build/clock.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/clock.jpg]
+
+8. Finish the soldering of the rest of the parts, check it all again, and power up.
+
+[http://74clock.googlecode.com/svn/wiki/images/Build/circuit.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/circuit.jpg]
+
+9. If you have a good signal generator and a scope you can adjust the clock.
