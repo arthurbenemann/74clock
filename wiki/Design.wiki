@@ -1,8 +1,5 @@
 = Design =
 
-http://74clock.googlecode.com/svn/wiki/images/design/DSC05007.JPG
-[http://74clock.googlecode.com/svn/wiki/images/design/DSC05010.JPG http://74clock.googlecode.com/svn/wiki/images/design/small/DSC05010.jpg]
-
 
 
 [http://miscel.dk/MiscEl/miscel.html MiscEl]
@@ -12,3 +9,12 @@ http://74clock.googlecode.com/svn/wiki/images/design/analize%20Display%20grande.
 http://74clock.googlecode.com/svn/wiki/images/design/analize%20LM317.png
 
 http://74clock.googlecode.com/svn/wiki/images/design/analize%20display%20pequeno.png
+
+
+[http://74clock.googlecode.com/svn/wiki/images/design/DSC05010.JPG http://74clock.googlecode.com/svn/wiki/images/design/small/DSC05010.jpg]
+
+Testing the current consumed by one of the counters to check if it is on specs. On the left is the current measured with some unused inputs unconnected, the picture on the left it's the current of the same circuit but now with the unused inputs grounded. Low power design is all about taking care of this kind of stuff.
+
+[http://74clock.googlecode.com/svn/wiki/images/design/DSC05007.JPG http://74clock.googlecode.com/svn/wiki/images/design/small/DSC05007.jpg]
+
+
