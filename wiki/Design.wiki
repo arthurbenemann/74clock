@@ -1,5 +1,14 @@
 = Design =
 
+The clock had two specifications:
+  * It should be big
+  * Battery backup
+
+Both specifications were contradictory, a big display would need lot's of power, with battery backup he wish to use the smallest battery for the longest time. The solutions was to divide power supply for the logic and displays. The battery would only backup the logic, that should be of the CMOS family because of it's power consumption drops to almost zero when running on a low clock frequency.
+
+The next step was to find the display, a seven segments display looks cool for a watch. I got four 57mm Common Anode displays in a local store. I made some measurements on the display and find that the voltage drop over each segment about 7V @15mA. The datasheet also showed this numbers. The big voltage drop happens because each segment has for LEDs in series. 
+
+http://74clock.googlecode.com/svn/wiki/images/design/DisplayData.png
 
 
 [http://miscel.dk/MiscEl/miscel.html MiscEl]
@@ -16,5 +25,3 @@ http://74clock.googlecode.com/svn/wiki/images/design/analize%20display%20pequeno
 Testing the current consumed by one of the counters to check if it is on specs. On the left is the current measured with some unused inputs unconnected, the picture on the left it's the current of the same circuit but now with the unused inputs grounded. Low power design is all about taking care of this kind of stuff.
 
 [http://74clock.googlecode.com/svn/wiki/images/design/DSC05007.JPG http://74clock.googlecode.com/svn/wiki/images/design/small/DSC05007.jpg]
-
-
