@@ -8,9 +8,19 @@ A clock is a useful thing, so let's build one.
 
 The motivation from this project come from the [http://dangerousprototypes.com/open-7400-logic-competition/ 74 contest], hosted by [http://dangerousprototypes.com/open-7400-logic-competition/ Dangerus Prototypes]. I had three projects in mind, a one instruction set computer, a logic analyzer and a clock. The first would be put in a corner after the project, the second would be useful but a micro would have a lot more features. The idea of making a clock for the [http://www.daele.eng.br/ DAELE], that is a our university group of students, would be nice.
 
-The clock would stay in a big room, so it had to be big. Having to adjust the clock on every power failure would be bad. With these specifications in mind the clock was been projected. The idea of making this a mini tutorial on project making process has come also. I tried to take as many pictures as I could, and give a good explanation of the design and build decisions.
+The clock would stay in a big room, so it had to be big. Having to adjust the clock on every power failure would be bad. With these specifications in mind the clock was been projected. The idea of making this a mini tutorial on project making process has come also. I tried to take as many pictures as I could, and give a good explanation of the design and build decisions. Navigate thought the side bar to see the build and design process.
 
 Thanks guys from the DAELE, for helping with the cost of the parts. Those big displays are expensive.
+
+The project is release as  Open Hardware (OSHW).The files can be downloaded by SVN, or in the source tab, or in the following links:
+
+[http://74clock.googlecode.com/svn/trunk/%2074clock/74clock.pdf Schematic]
+
+[http://74clock.googlecode.com/svn/trunk/%2074clock/74clock%20Top%20Layer%20Mirrored.pdf Top Layer]
+
+[http://74clock.googlecode.com/svn/trunk/%2074clock/74clock%20Bottom%20Layer.pdf Bottom Layer]
+
+[http://code.google.com/p/74clock/downloads/detail?name=74clock.rar&can=2&q= All Files]
 
 
 ===Arthur Benemann 2011 Brazil===
