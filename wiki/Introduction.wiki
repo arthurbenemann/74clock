@@ -12,13 +12,13 @@ Thanks guys from the DAELE, for helping with the cost of the parts. Those big di
 
 The project is release as  Open Hardware (OSHW).The files can be downloaded by SVN, or in the source tab, or in the following links:
 
+[http://code.google.com/p/74clock/downloads/detail?name=74clock.rar&can=2&q= All Files]
+
 [http://74clock.googlecode.com/svn/trunk/%2074clock/74clock.pdf Schematic]
 
 [http://74clock.googlecode.com/svn/trunk/%2074clock/74clock%20Top%20Layer%20Mirrored.pdf Top Layer]
 
 [http://74clock.googlecode.com/svn/trunk/%2074clock/74clock%20Bottom%20Layer.pdf Bottom Layer]
-
-[http://code.google.com/p/74clock/downloads/detail?name=74clock.rar&can=2&q= All Files]
 
 
 ===Arthur Benemann 2011 Brazil===
