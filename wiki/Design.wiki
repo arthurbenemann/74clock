@@ -26,11 +26,15 @@ The crystal oscillator looks simple but it is tricky. It is a [http://en.wikiped
 
 http://74clock.googlecode.com/svn/wiki/images/design/pierceOSC.png
 
-After all this the power supply will come with easy. The requirements are a 3V with battery backup (HS ICs), 5V (LS display drivers), and  12V unregulated (12V does not waste to much energy on the displays, and I also one in my junk bin) power rails.
+After all this the power supply will come with easy. The requirements are a 3V with battery backup (HS ICs), 5V (LS display drivers), and  12V unregulated (12V does not waste to much energy on the displays, and I also one in my junk bin) power rails. A diode on the input protects the board from a inverted polarity supply.This go directly to the displays. The 12V are regulated to 5V by a 7805, and again to 3V3 by a LM317. The output of the LM317 and the battery are connected by two diodes to the power line, this way the battery backs up when the 317 is off.
 
 http://74clock.googlecode.com/svn/wiki/images/design/powerSupply.png
 
-[http://miscel.dk/MiscEl/miscel.html MiscEl]
+Since this will go to the DAELE I tough that a row of "programable" displays would be nice. I say programmable because you can chose witch display to lit based on the soldered on the board. Quoting [http://www.eevblog.com/ Dave Jones] 'Soldering is my programming language'.
+
+http://74clock.googlecode.com/svn/wiki/images/layout/dISPLY.png
+
+To make the simple calculations for the displays resistors and the LM317 supply i used a nice program called [http://miscel.dk/MiscEl/miscel.html MiscEl]. Here are some screen-shots:
 
 http://74clock.googlecode.com/svn/wiki/images/design/analize%20Display%20grande.png
 
@@ -38,9 +42,14 @@ http://74clock.googlecode.com/svn/wiki/images/design/analize%20LM317.png
 
 http://74clock.googlecode.com/svn/wiki/images/design/analize%20display%20pequeno.png
 
+Of course no project would be complete without some testing. I breadboarded some parts of the circuit just to be sure.
 
 [http://74clock.googlecode.com/svn/wiki/images/design/DSC05010.JPG http://74clock.googlecode.com/svn/wiki/images/design/small/DSC05010.jpg]
 
 Testing the current consumed by one of the counters to check if it is on specs. On the left is the current measured with some unused inputs unconnected, the picture on the left it's the current of the same circuit but now with the unused inputs grounded. Low power design is all about taking care of this kind of stuff.
 
 [http://74clock.googlecode.com/svn/wiki/images/design/DSC05007.JPG http://74clock.googlecode.com/svn/wiki/images/design/small/DSC05007.jpg]
+
+About the problem with the Crystal oscillator, I have fixed that.A capacitor get's replaced by a variable-cap, this way the oscillation frequency can be shifted lightly. With a good signal generator and a scope you can adjust the clock (Just generate a 32.768Khz waveform and check if the oscillator stays in phase). I changed the IC also, the old one didn't locked at 32Khz on every power up.
+
+[http://74clock.googlecode.com/svn/wiki/images/Build/clock.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/clock.jpg]
