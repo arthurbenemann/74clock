@@ -2,7 +2,8 @@
 With the design ready let's start to build things, first the PCB.
 
 The method that i like to use is [http://www.google.com/search?q=Toner+transfer+PCB Toner Transfer ](click on the link to find lot's of info).Let's do a quick tutorial:
-  * Print the PCB - use Eagle to print the Top,Bottom,Pads, Dimension,Vias and Holes layers of the PCB ( Top and Bottom one at a time) on Coated paper (Papel Couche). *The TOP layer must be mirrored*
+  * Print the PCB - use Eagle to print the Top,Bottom,Pads, Dimension,Vias and Holes layers of the PCB ( Top and Bottom one at a time) on Coated paper (Papel Couche). *The TOP layer must be mirrored* (   [http://74clock.googlecode.com/svn/trunk/%2074clock/74clock%20Top%20Layer%20Mirrored.pdf Top Layer],[http://74clock.googlecode.com/svn/trunk/%2074clock/74clock%20Bottom%20Layer.pdf Bottom Layer])
+
   * Transfer the Tonner to the PCB - First clean the PCB. Place the paper on the PCB with the tonner side facing the PCB.Now with an iron in the Hot position press the  the sandwich of paper and PCB (takes ~3min). This will fuse the tonner and it will stick to the PCB.*Take care of the borders (they don't heat so easy as the middle). Flip the PCB and make the other side, take your time to align the layers.
 [http://74clock.googlecode.com/svn/wiki/images/pcb/DSC05016.JPG http://74clock.googlecode.com/svn/wiki/images/pcb/small/DSC05016.jpg]
 
