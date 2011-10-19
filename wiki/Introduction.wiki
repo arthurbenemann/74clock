@@ -1,7 +1,5 @@
 = 74Clock =
 
-==This page is under construction. Please come back later.==
-
 A clock is a useful thing, so let's build one.
 
 [http://74clock.googlecode.com/svn/wiki/images/74Clock.JPG http://74clock.googlecode.com/svn/wiki/images/74Clock.jpg]
