@@ -30,6 +30,8 @@ The project is release as  Open Hardware (OSHW).The files can be downloaded by S
 
 [http://74clock.googlecode.com/svn/wiki/images/Build/circuit.JPG http://74clock.googlecode.com/svn/wiki/images/Build/small/circuit.jpg]
 
+http://74clock.googlecode.com/svn/wiki/images/layout/PCB%20parcial%206.png
+
 ===All pictures are available in high resolution just click on the images.===
 
 Just a small note for those who will complain about my English: The project it's open source so instead of complying  fix it, aren't you an engineer? And if you still want to complain write it on Portuguese.
