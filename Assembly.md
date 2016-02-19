@@ -1,0 +1,55 @@
+# Assembly #
+
+1. Tools:
+  * Soldering Iron
+  * Solder
+  * Desoldering pump (everyone makes mistakes)
+  * Wire cutter ( trimming the leads)
+  * Light
+  * PCB Layout of the IC ( Eagle with the "value" layer on)
+  * PCB Holder (not essential)
+  * [Bus Pirate](http://dangerousprototypes.com/docs/Bus_Pirate)
+  * [Open Logic Sniffer](http://gadgetfactory.net/logicsniffer/) ([Dangerous Prototypes link](http://dangerousprototypes.com/open-logic-sniffer))
+
+The buspirate and the OLS are great tools and can help alot when debugging, but the project can be made without them.
+
+[![](http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01705.jpg)](http://74clock.googlecode.com/svn/wiki/images/Build/DSC01705.JPG)
+
+
+2. Solder the ICs and Vias - Start by soldering the vias, they are easy to be forgotten. A thin wire will do the job. Since this is the prototype I build it one part at a time, so it's easy to make it work. The ICs soldered take care of keeping the time. **Both sides of the board must be soldered.**
+
+[![](http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01706.jpg)](http://74clock.googlecode.com/svn/wiki/images/Build/DSC01706.JPG)
+
+3. Check the joints - And make repairs where needed.
+
+[![](http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01708.jpg)](http://74clock.googlecode.com/svn/wiki/images/Build/DSC01708.JPG)
+
+4. Check the power lines - Ideally you should check all the traces, but that is so tedious. I normally just check the GND and power lines, so all the ICs are powered up.
+
+[![](http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01709.jpg)](http://74clock.googlecode.com/svn/wiki/images/Build/DSC01709.JPG)
+
+5. Power up - Now its a good time to see if the circuit is working (You can see in the picture that more one IC needs to be soldered to the test). I tested the circuit by powering, and clocking it with the [Bus Pirate](http://dangerousprototypes.com/docs/Bus_Pirate). The output of the conters where logged with the [Open Logic Sniffer](http://gadgetfactory.net/logicsniffer/). After re-soldering some joints it worked. (Most problems occurred because a solder joint on the top layer under the chip was open)
+
+[![](http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01712.jpg)](http://74clock.googlecode.com/svn/wiki/images/Build/DSC01712.JPG)
+
+5.a. The Bus pirate was used to generate a 10Khz clock, the logic analyzer was connected as show in the schematic. These are the screens of the clock working. ( 6ms represents 60s on the real clock)
+
+![http://74clock.googlecode.com/svn/wiki/images/Build/ols%20half%20range.png](http://74clock.googlecode.com/svn/wiki/images/Build/ols%20half%20range.png)
+
+5.b The same as above but on a larger time range. ( The marker should read 144.0ms, but the buspirate isn't a perfect clock)
+
+![http://74clock.googlecode.com/svn/wiki/images/Build/ols%20full%20range.png](http://74clock.googlecode.com/svn/wiki/images/Build/ols%20full%20range.png)
+
+6. Solder the rest of the ICs and decoupling caps.
+
+[![](http://74clock.googlecode.com/svn/wiki/images/Build/small/DSC01717.jpg)](http://74clock.googlecode.com/svn/wiki/images/Build/DSC01717.JPG)
+
+7. The fix up on the clock circuit as explained on the design page. A capacitor get's replaced by a variable-cap.
+
+[![](http://74clock.googlecode.com/svn/wiki/images/Build/small/clock.jpg)](http://74clock.googlecode.com/svn/wiki/images/Build/clock.JPG)
+
+8. Finish the soldering of the rest of the parts, check it all again, and power up.
+
+[![](http://74clock.googlecode.com/svn/wiki/images/Build/small/circuit.jpg)](http://74clock.googlecode.com/svn/wiki/images/Build/circuit.JPG)
+
+9. If you have a good signal generator and a scope you can adjust the clock.

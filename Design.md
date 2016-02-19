@@ -1,0 +1,55 @@
+# Design #
+
+The clock had two specifications:
+  * It should be big
+  * Battery backup
+
+Both specifications were contradictory, a big display would need lot's of power, with battery backup he wish to use the smallest battery for the longest time. The solutions was to divide power supply for the logic and displays. The battery would only backup the logic, that should be of the HS family because of it's power consumption drops to almost zero when running on a low clock frequency.These ICs run down to 2V so the battery could be a CR2032.
+
+The next step was to find the display, a seven segments display looks cool for a watch. I got four 57mm Common Anode displays in a local store. I made some measurements on the display and find that the voltage drop over each segment about 7V @15mA. The [datasheet](http://74clock.googlecode.com/svn/trunk/%2074clock/7SEG%20DISPLAY%2057mm.pdf) also showed this numbers. The big voltage drop happens because each segment has for LEDs in series. Here is a picture of some of the important info in the datasheet.
+
+![http://74clock.googlecode.com/svn/wiki/images/design/DisplayData.png](http://74clock.googlecode.com/svn/wiki/images/design/DisplayData.png)
+
+With a display at hands a driver is needed to interface with the logic. A BCD driver/decoder would help a lot, decoding the binary input from the logic to the segment to lit. A open collector driver must be used because the displays require a big supply voltage to overcome the diode drops. A minimum of 15mA per segment, these displays can handle up to 40mA. The only display driver/decoder that i could buy that meet these specs was a 74LS74. The problem is that this as this is a LS series chip it needs a 5V supply and consumes a lot of power. So a 3º power supply was needed that would not need battery backup. The internal circuitry of the 7447 is just [combinational logic](http://en.wikipedia.org/wiki/Combinational_logic).
+
+![http://74clock.googlecode.com/svn/wiki/images/design/74ls74.png](http://74clock.googlecode.com/svn/wiki/images/design/74ls74.png)
+
+The clock circuit is just a bunch of counters run by a clock of 1/60Hz. Is a  finite state machine made from [sequential logic](http://en.wikipedia.org/wiki/Sequential_logic). The kind of state machine used is a [Moore machine](http://en.wikipedia.org/wiki/Moore_machine). These stuff is a lot better explained on other places, just Google it. The counting circuit is on the picture, from the left to the right are the hour decade and units counters, decade and units minutes counters. The outputs are connected to the displays drivers. The only input is the clock since this just count forward.
+
+![http://74clock.googlecode.com/svn/wiki/images/design/countersSchematic.png](http://74clock.googlecode.com/svn/wiki/images/design/countersSchematic.png)
+
+Now we need to generate that 1/60Hz clock. I chose to base it on a crystal oscillator that will be explained shortly, let's just say that it outputs a precise 32768Hz square waveform (32768 = 2^15). To divide that clock I used counters, a 14 bit counter divide the clock to 2Hz first. Then a 12 count and a decade counters make the 1/60Hz clock. Two push-buttons can bypass the clock in some parts of the circuit making the output frequency be 256Hz and 4.26Hz. The 4Hz output is useful to adjust the minutes ( the minutes digit changes four times per second). And the 256Hz output to adjust the hour (hour digit changes four times per second , 256/60=4.267).
+
+![http://74clock.googlecode.com/svn/wiki/images/design/clockCircuit.png](http://74clock.googlecode.com/svn/wiki/images/design/clockCircuit.png)
+
+The crystal oscillator looks simple but it is tricky. It is a [Pierce oscillator](http://en.wikipedia.org/wiki/Pierce_oscillator), the problem I had was to find the correct capacitors to get the exact frequency output. My home tools didn't had enough resolution to check the frequency. Don't get me wrong, the crystal showed as running at 32.76kHz at the breadboard ( I know a breadboard is not the place for this kind of circut, but it was only a test), but the clock was drifting about 1 min. per hour. So left a connection on the board for a better clock reference, and with a jumper the on board oscillator could be used (more on that later).
+
+![http://74clock.googlecode.com/svn/wiki/images/design/pierceOSC.png](http://74clock.googlecode.com/svn/wiki/images/design/pierceOSC.png)
+
+After all this the power supply will come with easy. The requirements are a 3V with battery backup (HS ICs), 5V (LS display drivers), and  12V unregulated (12V does not waste to much energy on the displays, and I also one in my junk bin) power rails. A diode on the input protects the board from a inverted polarity supply.This go directly to the displays. The 12V are regulated to 5V by a 7805, and again to 3V3 by a LM317. The output of the LM317 and the battery are connected by two diodes to the power line, this way the battery backs up when the 317 is off.
+
+![http://74clock.googlecode.com/svn/wiki/images/design/powerSupply.png](http://74clock.googlecode.com/svn/wiki/images/design/powerSupply.png)
+
+Since this will go to the DAELE I tough that a row of "programable" displays would be nice. I say programmable because you can chose witch display to lit based on the soldered on the board. Quoting [Dave Jones](http://www.eevblog.com/) 'Soldering is my programming language'.
+
+![http://74clock.googlecode.com/svn/wiki/images/layout/dISPLY.png](http://74clock.googlecode.com/svn/wiki/images/layout/dISPLY.png)
+
+To make the simple calculations for the displays resistors and the LM317 supply i used a nice program called [MiscEl](http://miscel.dk/MiscEl/miscel.html). Here are some screen-shots:
+
+![http://74clock.googlecode.com/svn/wiki/images/design/analize%20Display%20grande.png](http://74clock.googlecode.com/svn/wiki/images/design/analize%20Display%20grande.png)
+
+![http://74clock.googlecode.com/svn/wiki/images/design/analize%20LM317.png](http://74clock.googlecode.com/svn/wiki/images/design/analize%20LM317.png)
+
+![http://74clock.googlecode.com/svn/wiki/images/design/analize%20display%20pequeno.png](http://74clock.googlecode.com/svn/wiki/images/design/analize%20display%20pequeno.png)
+
+Of course no project would be complete without some testing. I breadboarded some parts of the circuit just to be sure.
+
+[![](http://74clock.googlecode.com/svn/wiki/images/design/small/DSC05010.jpg)](http://74clock.googlecode.com/svn/wiki/images/design/DSC05010.JPG)
+
+Testing the current consumed by one of the counters to check if it is on specs. On the left is the current measured with some unused inputs unconnected, the picture on the left it's the current of the same circuit but now with the unused inputs grounded. Low power design is all about taking care of this kind of stuff.
+
+[![](http://74clock.googlecode.com/svn/wiki/images/design/small/DSC05007.jpg)](http://74clock.googlecode.com/svn/wiki/images/design/DSC05007.JPG)
+
+About the problem with the Crystal oscillator, I have fixed that.A capacitor get's replaced by a variable-cap, this way the oscillation frequency can be shifted lightly. With a good signal generator and a scope you can adjust the clock (Just generate a 32.768Khz waveform and check if the oscillator stays in phase). I changed the IC also, the old one didn't locked at 32Khz on every power up.
+
+[![](http://74clock.googlecode.com/svn/wiki/images/Build/small/clock.jpg)](http://74clock.googlecode.com/svn/wiki/images/Build/clock.JPG)

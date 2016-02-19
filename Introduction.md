@@ -1,0 +1,37 @@
+# 74Clock #
+
+A clock is a useful thing, so let's build one.
+
+[![](http://74clock.googlecode.com/svn/wiki/images/74Clock.jpg)](http://74clock.googlecode.com/svn/wiki/images/74Clock.JPG)
+
+The motivation from this project come from the [74 contest](http://dangerousprototypes.com/open-7400-logic-competition/), hosted by [Dangerus Prototypes](http://dangerousprototypes.com/open-7400-logic-competition/). I had three projects in mind, a one instruction set computer, a logic analyzer and a clock. The first would be put in a corner after the project, the second would be useful but a micro would have a lot more features. The idea of making a clock for the [DAELE](http://www.daele.eng.br/), that is a our university group of students, would be nice.
+
+The clock would stay in a big room, so it had to be big. Having to adjust the clock on every power failure would be bad. With these specifications in mind the clock was been projected. The idea of making this a mini tutorial on project making process has come also. I tried to take as many pictures as I could, and give a good explanation of the design and build decisions. Navigate thought the [wiki](http://code.google.com/p/74clock/wiki/Introduction?tm=6) to see the build and design process.
+
+Thanks guys from the DAELE, for helping with the cost of the parts. Those big displays are expensive.
+
+The project is release as  Open Hardware (OSHW).The files can be downloaded by SVN, or in the source tab, or in the following links:
+
+[All Files](http://code.google.com/p/74clock/downloads/detail?name=74clock.rar&can=2&q=)
+
+[Schematic](http://74clock.googlecode.com/svn/trunk/%2074clock/74clock.pdf)
+
+[Top Layer](http://74clock.googlecode.com/svn/trunk/%2074clock/74clock%20Top%20Layer%20Mirrored.pdf)
+
+[Bottom Layer](http://74clock.googlecode.com/svn/trunk/%2074clock/74clock%20Bottom%20Layer.pdf)
+
+
+### Arthur Benemann 2011 Brazil ###
+
+
+[![](http://74clock.googlecode.com/svn/wiki/images/74Clock2.jpg)](http://74clock.googlecode.com/svn/wiki/images/74Clock2.JPG)
+
+[![](http://74clock.googlecode.com/svn/wiki/images/74Clock3.jpg)](http://74clock.googlecode.com/svn/wiki/images/74Clock3.JPG)
+
+[![](http://74clock.googlecode.com/svn/wiki/images/Build/small/circuit.jpg)](http://74clock.googlecode.com/svn/wiki/images/Build/circuit.JPG)
+
+![http://74clock.googlecode.com/svn/wiki/images/layout/PCB%20parcial%206.png](http://74clock.googlecode.com/svn/wiki/images/layout/PCB%20parcial%206.png)
+
+### All pictures are available in high resolution just click on the images. ###
+
+Just a small note for those who will complain about my English: The project it's open source so instead of complying  fix it, aren't you an engineer? And if you still want to complain write it on Portuguese.
